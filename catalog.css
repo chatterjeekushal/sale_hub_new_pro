@@ -82,7 +82,7 @@ body {
 .bi-star {
 
   font-size: 1rem;
-
+cursor: pointer;
 }
 
 .circle_catalog {
@@ -117,7 +117,7 @@ body {
   border: 1px solid gray;
   border-radius: 50%;
   overflow: hidden;
-
+cursor: pointer;
 }
 
 .circle_catalog1 img {
