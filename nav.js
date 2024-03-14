@@ -64,3 +64,20 @@ searcharea.classList.remove("search_area_top")
         searcharea.classList.add("search_area_top");
         
     })
+
+
+    let account=document.querySelector(".account");
+
+    let account_list=document.querySelector(".account_list");
+
+    account.addEventListener('mouseenter',function(){
+
+        account_list.classList.remove("d_none")
+
+    })
+
+    manindocument.addEventListener("mouseenter",()=>{
+
+        account_list.classList.add("d_none");
+        
+        })

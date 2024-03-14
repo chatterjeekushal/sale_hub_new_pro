@@ -16,9 +16,17 @@
     box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    
+}
+
 .navbar {
 
     background: whitesmoke;
+    display: flex;
+    
+    width: 100%;
 
 }
 
@@ -31,6 +39,7 @@
     align-items: center;
     list-style: none;
     margin-left: 1rem;
+    gap: 2rem;
 }
 
 .brand {
@@ -45,7 +54,7 @@
 
 .list_holder li {
 
-    margin: 0px 1rem;
+    
     font-size: 1.2rem;
     text-transform: capitalize;
     cursor: pointer;
@@ -54,33 +63,38 @@
 }
 
 .sub_list_home {
-    background:whitesmoke;
+    background: whitesmoke;
     position: absolute;
     top: 8.3rem;
     list-style: none;
     min-width: 30vw;
     left: 1.5rem;
+    height: 45vh;
 }
 
 .sub_list_home li {
     padding: 2rem 0px;
+    margin-left: 1rem;
 }
 
 .sub_list_blog {
 
-    background:whitesmoke;
+    background: whitesmoke;
     position: absolute;
     top: 8.3rem;
     list-style: none;
     min-width: 30vw;
     left: 10rem;
     transition: 0.3s ease-in;
+    height: 40vh;
 }
 
 
 
 .sub_list_blog li {
-    padding: 2rem 0px;
+    padding: 1.6rem 0px;
+    
+    margin-left: 1rem;
 }
 
 .d_none {
@@ -111,20 +125,23 @@
 .search_area {
 
     width: 100%;
-    height: 35rem;
+    height:100%;
     display: flex;
     flex-direction: column;
-
+    z-index: 50;
     align-items: center;
-
     position: fixed;
     transition: 0.5s ease-in-out;
 
     background: whitesmoke;
+
+
+    
+
 }
 
 .search_area_top {
-    transform: translateY(-50rem);
+    transform: translateY(-80rem);
 }
 
 
@@ -199,5 +216,25 @@
     font-size: 0.9rem;
     color: #b4b4b4;
 }
+
+.account_list{
+    
+    position: absolute;
+    top: 130px;
+right: 100px;
+list-style: none;
+height: 38vh;
+width: 20%;
+
+background-color: whitesmoke;
+}
+
+.account_list li{
+    padding: 1rem;
+    margin-left: 1rem;
+    
+    
+}
+
 
 
