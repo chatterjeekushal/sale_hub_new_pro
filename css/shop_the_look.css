@@ -146,6 +146,8 @@ transition:  all 0.2s ease-in;
 .shop_look_grid_item1:hover img{
 
     transform: scale(1.2);
+    transition-duration: 1s;
+    
 }
 
 

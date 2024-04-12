@@ -67,6 +67,7 @@
     margin-top: 1.3rem;
     cursor: pointer;
     transition: 0.5s ease-in;
+    transition-duration: 5s;
     animation: fillcolor 0.5s 1s infinite;
 }
 

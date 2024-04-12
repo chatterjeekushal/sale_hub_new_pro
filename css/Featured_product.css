@@ -250,6 +250,7 @@ color:rgba(173, 171, 171, 0.779);
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 
 .notyfybox{
@@ -292,4 +293,21 @@ color:rgba(173, 171, 171, 0.779);
     font-family: 'poppins',sans-serif;
     background-color: #d5d1d1;
     cursor: pointer;
+}
+
+
+.notyfy_box_closer{
+
+    
+    position: relative;
+    bottom: 40px;
+    left:280px;
+    cursor: pointer;
+}
+
+.notyfy_box_closer .bi:hover{
+
+    color:red;
+    
+    transform: rotate(30deg);
 }

@@ -93,3 +93,33 @@ Array.from(product_panel_box).forEach((element, index) => {
     })
 });
 
+
+let close_data=document.querySelector(".notyfy_box_closer")
+
+close_data.addEventListener('click',function(){
+
+let pre=close_data.parentElement
+
+pre.parentElement.style.display="none"
+
+})
+
+
+let dis_size=document.querySelectorAll(".dis")
+
+dis_size.forEach((element, index) => {
+    element.addEventListener('click', function(e) {
+    
+        if (e.target.id=="M" || e.target.id=="XL") {
+
+            let pre = close_data.parentElement;
+            pre.parentElement.style.display = "flex";
+          
+        } else {
+            alert("something wrong");
+        }
+    });
+});
+
+
+
